@@ -55,7 +55,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Cámaras de Comercio',
+            titulo: 'Cámaras de comercio',
             hash: 't_1_5',
           },
           {

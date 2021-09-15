@@ -369,7 +369,7 @@
                       
                       p.text-small.texto-blanco Para consultar esta norma se puede dirigir al Artículo 1 de la Ley 1562 de 2012 en el siguiente link:
                     .col-sm-auto
-                      a.boton(:href="('https://www.ins.gov.co/conocenos/plataforma-estrat%C3%A9gica ')" target="_blank")
+                      a.boton(:href="('https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Ley-1562-de-2012.pdf')" target="_blank")
                         span.aaa Ver
                         i.aaa.fas.fa-link   
       separador
