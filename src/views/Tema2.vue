@@ -19,7 +19,7 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-2")
           .row(titulo="Inscripción de Industria y Comercio")
             .col-md-6.mb-4.mb-md-0.p-5
-              p Esta inscripción se realiza en las Secretarías de Hacienda Municipal de donde se encuentra ubicada y va a funcionar la unidad productiva.
+              p Esta inscripción se realiza en las secretarías de hacienda municipal de donde se encuentra ubicada y va a funcionar la unidad productiva.
           
             .col-md-6.px-5
               figure
@@ -38,7 +38,7 @@
           div(titulo="Inscripción del RUT y asignación del NIT")
             .row
               .col-md-6.mb-4.mb-md-0.p-5
-                p Esto se realiza en la Dirección de Impuestos y Aduanas Nacionales (DIAN) lo puede hacer de forma virtual y después se acerca a la entidad para solicitar copia del RUT. Registro Único Tributario (RUT) - Número de Identificación Tributaria (NIT).           
+                p Esto se realiza en la Dirección de Impuestos y Aduanas Nacionales (DIAN) lo puede hacer de forma virtual y después se acerca a la entidad para solicitar copia del RUT. #[strong Registro Único Tributario (RUT) - Número de Identificación Tributaria (NIT).]           
               .col-md-6.px-5
                 figure
                   img.img-c(src='@/assets/tema1/img-22.svg')                
@@ -50,13 +50,13 @@
                 ul.lista-ul
                   li 
                     i.iii.fas.fa-check
-                    | Condiciones sanitarias y ambientales.
+                    | #[strong Condiciones sanitarias y ambientales.]
                   li 
                     i.iii.fas.fa-check
-                    | Prevención y seguridad industrial.
+                    | #[strong Prevención y seguridad industrial.]
                   li 
                     i.iii.fas.fa-check
-                    | La reproducción de música y videos.
+                    | #[strong La reproducción de música y videos.]
             
               .col-md-6.px-5
                 figure
@@ -141,9 +141,9 @@
                 img(src='@/assets/tema1/img-30.svg')
     p.mb-5 Otras consultas importantes que se deben tener en cuenta son las de seguridad industrial, urbanismo, sanidad y política ambiental. 
 
-    h5 Diligenciamiento.
+    h5 Diligenciamiento
 
-    p.mb-5 Después de tener claro el tipo de empresa o unidad productiva a consolidar es importante iniciar con el diligenciamiento de los formularios y documentos necesarios para la formalización. En caso de tener dudas se puede acercar a las Cámaras de Comercio de su localidad en donde podrá solicitar asesoría para la consolidación o para resolver dudas sobre el proceso de formalización de la unidad productiva. Algunos de estos documentos son: 
+    p.mb-5 Después de tener claro el tipo de empresa o unidad productiva a consolidar es importante iniciar con el diligenciamiento de los formularios y documentos necesarios para la formalización. En caso de tener dudas se puede acercar a la Cámara de Comercio de su localidad en donde podrá solicitar asesoría para la consolidación o para resolver dudas sobre el proceso de formalización de la unidad productiva. Algunos de estos documentos son: 
 
     .row.mb-5 
       .col-lg-6
@@ -186,19 +186,19 @@
       .col.fnd-3.p-5.m-2
         .cc2.img-c.mb-4
           h1.cc3 1
-        h6 Dirigirse a la Cámara de Comercio:
+        h6 Dirigirse a la Cámara de Comercio
         p Debe conocer el estado del proceso y es necesario consultar en su Cámara de Comercio local o donde registró su unidad productiva.
         
       .col.fnd-3-.p-5.m-2
         .cc2.img-c.mb-4
           h1.img-c.cc3 2
-        h6.texto-blanco Impresión: 
+        h6.texto-blanco Impresión
         p.texto-blanco En algunas Cámaras de Comercio se puede realizar los trámites de forma virtual, pero es necesario imprimir los formularios para archivar, ser firmados y entregar en la ventanilla única para su pago.
        
       .col.fnd-3.p-5.m-2
         .cc2.img-c.mb-4
           h1.img-c.cc3 3
-        h6 Tramitar en las entidades promotoras de salud (EPS): 
+        h6 Tramitar en las entidades promotoras de salud (EPS)
         ul.lista-ul
           li 
             i.iii.fas.fa-check
@@ -213,7 +213,7 @@
       .col.fnd-3-.p-5.m-2
         .cc2.img-c.mb-4
           h1.img-c.cc3 4
-        h6.texto-blanco Estado del proceso: 
+        h6.texto-blanco Estado del proceso
         p.texto-blanco Es responsabilidad del empresario estar atento al proceso y dar seguimiento a la creación de la unidad productiva, es preciso resaltar que tienen un tiempo límite para completar la minuta de la constitución.
 
 

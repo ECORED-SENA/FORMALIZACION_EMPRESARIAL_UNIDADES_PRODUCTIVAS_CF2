@@ -139,17 +139,17 @@
           .col.fnd-3.p-5.m-2
             .cc2.img-c.mb-4
               h1.cc3 1
-            h6 Contribuyente:
+            h6 Contribuyente
             p Son contribuyentes o responsables directos del pago del tributo los sujetos respecto de quienes se realiza el hecho generador de la obligación sustancial.     
           .col.fnd-3-.p-5.m-2
             .cc2.img-c.mb-4
               h1.img-c.cc3 2
-            h6.texto-blanco Responsables:
+            h6.texto-blanco Responsables
             p.texto-blanco Son responsables para efectos del impuesto de timbre, las personas que, sin tener el carácter de contribuyentes, deben cumplir obligaciones de estos por disposición expresa de la ley.
           .col.fnd-3.p-5.m-2
             .cc2.img-c.mb-4
               h1.img-c.cc3 3
-            h6 Sinónimos: 
+            h6 Sinónimos 
             p Para fines del impuesto sobre las ventas se consideran sinónimos los términos contribuyente y responsable
     .row.fnd-5  
       p.mb-5 En el Capítulo II se observan las declaraciones tributarias y según lo establecido en el Artículo 574 se encuentran las clases de declaraciones para los contribuyentes, responsables y agentes de retención en la fuente, entre estas se hallan:        
@@ -198,7 +198,11 @@
       separador
     #t_3_9.titulo-segundo
       h2 3.9 Solicitud de facturación
-    p.mb-5 Este proceso se realiza ante la DIAN y requiere que  se encuentre registrado como persona jurídica ante la DIAN para realizar el proceso mediante la página web de la institución: www.dian.gov.co, allí podrá ingresar con su cuenta en la opción de “usuario registrado”, y en la página principal encontrará la opción de “numeración de facturación”, de ahí en adelante es seguir los pasos indicados por la DIAN para generar los rangos de la facturación.
+    p.mb-5 
+      | Este proceso se realiza ante la DIAN y requiere que  se encuentre registrado como persona jurídica ante la DIAN para realizar el proceso mediante la página web de la institución: 
+      a(href='https://www.dian.gov.co/' target='_blank') www.dian.gov.co
+      |, allí podrá ingresar con su cuenta en la opción de “usuario registrado”, y en la página principal encontrará la opción de “numeración de facturación”, de ahí en adelante es seguir los pasos indicados por la DIAN para generar los rangos de la facturación.
+
 
     .row.justify-content-around.align-items-center
       .col-lg-8.align-self-center
@@ -252,7 +256,7 @@
       separador
 
     #t_3_10.titulo-segundo
-      h2 3.10 Solicitud de facturación                                           
+      h2 3.10 Firma electrónica                                           
     .row.justify-content-around
       .col-lg-4 
         figure.mb-5
@@ -345,16 +349,11 @@
 
     .row.justify-content-around.align-items-center
       .col-lg-11.align-self-center
-        .row.justify-content-around.align-items-center.mb-5
+        .row.justify-content-around.align-items-center
           .col-lg-8
             .row.fnd-1.p-5.mb-4          
               p Es aquella disciplina que trata la prevención de las lesiones y enfermedades causadas por las condiciones de trabajo, y de igual forma, busca la protección y promoción de la salud de los trabajadores. Su objetivo recae en mejorar las condiciones y el medio ambiente del lugar de trabajo, de la misma forma, la salud y la constante promoción del bienestar físico, social y mental de los trabajadores en función de sus actividades.  
-            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=7aBZqxZEqh0" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link.svg")
-              .anexo__texto
-                p #[strong Enlace web.] 
-                p Sistemas de gestión de la seguridad y salud en el trabajo
+            
           .col-lg-4 
             figure.mb-5
                 img(src='@/assets/tema3/img-16.svg')

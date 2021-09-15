@@ -62,7 +62,7 @@
                   
         .col-md-8.mb-4.mb-md-0
           h3.mb-3 Superintendencia de Subsidio Familiar
-          p Ejerce inspección, control y vigilancia de las Cajas de Compensación Familiar.
+          p Ejerce inspección, control y vigilancia de las cajas de compensación familiar.
 
       .row.justify-content-around.align-items-center
         .col-md-8.mb-4.mb-md-0.izq-
@@ -148,7 +148,7 @@
           img(src='@/assets/tema1/img-14.png')
     separador
     #t_1_5.titulo-segundo
-      h2 1.5 Cámaras de Comercio 
+      h2 1.5 Cámaras de comercio 
     p Según la Confederación de Cámaras de Comercio 
     .row.d-flex.justify-content-end.mb-5
 
@@ -156,7 +156,7 @@
         .bloque-texto-d.color-secundario.p-4.azz
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular “son personas jurídicas sin ánimo de lucro, de carácter corporativo y gremial, sujetas en la ejecución de todos sus actos de administración, gestión y contratación al derecho privado” 
+            h3.text-regular son personas jurídicas sin ánimo de lucro, de carácter corporativo y gremial, sujetas en la ejecución de todos sus actos de administración, gestión y contratación al derecho privado 
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 (Cámara de Comercio del Cauca, 2021, p. 21). 
@@ -196,8 +196,9 @@
       .row.m-0.align-items-center.justify-content-between.align-self-center
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p Es una organización sin ánimo de lucro, de interés y utilidad común, las Secretarías de Gobierno Departamental les otorgan personería jurídica para la prestación del servicio público que tiene como objetivo la gestión integral del riesgo contra incendio, la atención de incidentes y la atención de rescates en todas sus modalidades, así mismo, es claro mencionar que ningún municipio podrá tener más de un cuerpo de bomberos voluntarios. 
-            p Por otra parte, los cuerpos de bomberos voluntarios están sometidos al Régimen disciplinario previsto en el Decreto 953 de 1997 y contemplados en la Ley 1575 de 2012. 
+            p Es una organización sin ánimo de lucro, de interés y utilidad común, las secretarías de gobierno departamental les otorgan personería jurídica para la prestación del servicio público que tiene como objetivo la gestión integral del riesgo contra incendio, la atención de incidentes y la atención de rescates en todas sus modalidades, así mismo, es claro mencionar que ningún municipio podrá tener más de un cuerpo de bomberos voluntarios.
+            br 
+            p Por otra parte, los cuerpos de bomberos voluntarios están sometidos al régimen disciplinario previsto en el Decreto 953 de 1997 y contemplados en la Ley 1575 de 2012. 
 
 
         .col-lg-4.mb-4.mb-lg-0.align-self-center
@@ -221,7 +222,7 @@
 
     separador
     #t_1_8.titulo-segundo
-      h2 1.8 Instituto Nacional y Departamental de Salud
+      h2 1.8 Instituto nacional y departamental de salud
     .row.justify-content-around.align-items-center
       .col-lg-10.align-self-center
         .row.justify-content-around.align-items-center
@@ -263,7 +264,7 @@
                       
                       p.text-small.texto-blanco Con el fin de ampliar los conocimientos sobre las funciones y deberes de estos comités consulte la norma en el siguiente link: 
                     .col-sm-auto
-                      a.boton(:href="('https://www.ins.gov.co/conocenos/plataforma-estrat%C3%A9gica ')" target="_blank")
+                      a.boton(:href="('https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=47141')" target="_blank")
                         span.aaa Ver
                         i.aaa.fas.fa-link        
           .col-md-4.order-md-1.order-lg-2

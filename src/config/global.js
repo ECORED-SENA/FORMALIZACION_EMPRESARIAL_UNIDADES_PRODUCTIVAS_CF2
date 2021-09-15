@@ -171,7 +171,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.10',
-            titulo: 'Solicitud de facturación',
+            titulo: 'Firma electrónica',
             hash: 't_3_10',
           },
           {
@@ -238,77 +238,77 @@ export default {
   referencias: [
     {
       referencia:
-        'Confecámaras. (2021). Introducción a Cámaras de Comercio. Naturaleza jurídica de las Cámaras de Comercio.',
+        'Confecámaras. (2021). Introducción a Cámaras de Comercio. Naturaleza jurídica de las Cámaras de Comercio. ',
       link:
         'https://www.confecamaras.org.co/representacion-de-la-red/introduccion-a-camaras-de-comercio#:~:text=Las%20C%C3%A1maras%20de%20Comercio%2C%20son,empresariado%20en%20Colombia%2C%20y%20llevar',
     },
     {
       referencia:
-        'DANE. (2015). Tercer Censo Nacional Agropecuario. Caracterización de los productores residentes en el área rural dispersa censada.',
+        'DANE. (2015). Tercer Censo Nacional Agropecuario. Caracterización de los productores residentes en el área rural dispersa censada. ',
       link:
         'https://www.dane.gov.co/files/CensoAgropecuario/avanceCNA/Boletin%20tecnico_8sep.pdf',
     },
     {
       referencia:
-        'Decreto 410 de 1971. [Presidente de la República de Colombia]. Por el cual se expide el Código de Comercio. Marzo 27 de 1971.',
+        'Decreto 410 de 1971. [Presidente de la República de Colombia]. Por el cual se expide el Código de Comercio. Marzo 27 de 1971. ',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41102',
     },
     {
       referencia:
-        'Decreto 624 de 1989. [Presidencia de la República de Colombia]. Por el cual se expide el Estatuto Tributario de los Impuestos Administrados por la Dirección General de Impuestos Nacionales. Marzo 30 de 1989.',
+        'Decreto 624 de 1989. [Presidencia de la República de Colombia]. Por el cual se expide el Estatuto Tributario de los Impuestos Administrados por la Dirección General de Impuestos Nacionales. Marzo 30 de 1989. ',
       link: 'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=6533',
     },
     {
       referencia:
-        'Decreto 4463 de 2006. [Presidente de la República de Colombia]. Por el cual se reglamenta el Artículo 22 de la Ley 1014 de 2006. Diciembre 15 de 2006.',
+        'Decreto 4463 de 2006. [Presidente de la República de Colombia]. Por el cual se reglamenta el Artículo 22 de la Ley 1014 de 2006. Diciembre 15 de 2006. ',
       link:
         'https://www.sic.gov.co/sites/default/files/normatividad/Dec_4463_2006_art_22.pdf',
     },
     {
       referencia:
-        'Decreto 1072 de 2015. [Presidente de la República de Colombia]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo. Mayo 26 de 2015.',
+        'Decreto 1072 de 2015. [Presidente de la República de Colombia]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo. Mayo 26 de 2015. ',
       link:
         'https://www.mintrabajo.gov.co/documents/20147/0/DUR+Sector+Trabajo+Actualizado+a+15+de+abril++de+2016.pdf/a32b1dcf-7a4e-8a37-ac16-c121928719c8',
     },
     {
       referencia:
-        'Decreto 1528 de 2015. [Presidente de la República de Colombia]. Por el cual se corrigen unos yerros del Decreto 1072 de 2015, Decreto Único Reglamentario del Sector Trabajo, contenidos en los artículos 2.2.4.2.1.6., 2.2.4.6.42. y 2.2.4.10.1. del título 4 del libro 2 de la parte 2, referente a Riesgos Laborales. Julio 16 de 2015.',
+        'Decreto 1528 de 2015. [Presidente de la República de Colombia]. Por el cual se corrigen unos yerros del Decreto 1072 de 2015, Decreto Único Reglamentario del Sector Trabajo, contenidos en los artículos 2.2.4.2.1.6., 2.2.4.6.42. y 2.2.4.10.1. del título 4 del libro 2 de la parte 2, referente a Riesgos Laborales. Julio 16 de 2015. ',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=62875',
     },
     {
-      referencia: 'DIAN. (2021). La entidad. ¿Cuál es la naturaleza jurídica?',
+      referencia: 'DIAN. (2021). La entidad. ¿Cuál es la naturaleza jurídica? ',
       link:
         'https://www.dian.gov.co/dian/entidad/Paginas/Presentacion.aspx#:~:text=La%20DIAN%20esta%20organizada%20como,de%20Hacienda%20y%20Cr%C3%A9dito%20P%C3%BAblico',
     },
     {
       referencia:
-        'Ley 100 de 1993. Por la cual se crea el sistema de seguridad social integral y se dictan otras disposiciones. Diciembre 23 de 1993. DO. N° 41148.',
+        'Ley 100 de 1993. Por la cual se crea el sistema de seguridad social integral y se dictan otras disposiciones. Diciembre 23 de 1993. DO. N° 41148. ',
     },
     {
       referencia:
-        'Ley 527 de 1999. Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones. Agosto 18 de 1999. DO. N° 43673.',
+        'Ley 527 de 1999. Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones. Agosto 18 de 1999. DO. N° 43673. ',
     },
     {
       referencia:
-        'Ley 1523 de 2012. Por la cual se adopta la política nacional de gestión del riesgo de desastres y se establece el Sistema Nacional de Gestión del Riesgo de Desastres y se dictan otras disposiciones. Abril 24 de 2012.',
+        'Ley 1523 de 2012. Por la cual se adopta la política nacional de gestión del riesgo de desastres y se establece el Sistema Nacional de Gestión del Riesgo de Desastres y se dictan otras disposiciones. Abril 24 de 2012. ',
     },
     {
       referencia:
-        'Ley 1575 de 2012. Por medio de la cual se establece la Ley General de Bomberos de Colombia. Agosto 21 de 2012. DO. N° 48530.',
+        'Ley 1575 de 2012. Por medio de la cual se establece la Ley General de Bomberos de Colombia. Agosto 21 de 2012. DO. N° 48530. ',
     },
     {
       referencia:
-        'Ley 1014 de 2006. De fomento a la cultura del emprendimiento. Enero 26 de 2006. DO. N° 46164.',
+        'Ley 1014 de 2006. De fomento a la cultura del emprendimiento. Enero 26 de 2006. DO. N° 46164. ',
     },
     {
       referencia:
-        'Ley 1562 de 2012. Por la cual se modifica el Sistema de Riesgos Laborales y se dictan otras disposiciones en materia de Salud Ocupacional. Julio 11 de 2012. DO. N° 48488.',
+        'Ley 1562 de 2012. Por la cual se modifica el Sistema de Riesgos Laborales y se dictan otras disposiciones en materia de Salud Ocupacional. Julio 11 de 2012. DO. N° 48488. ',
     },
     {
       referencia:
-        'Universidad Piloto de Colombia Seccional del Alto Magdalena. (2020). Inscripción del RUT por primera vez [video]. YouTube.',
+        'Universidad Piloto de Colombia Seccional del Alto Magdalena. (2020). Inscripción del RUT por primera vez [video]. YouTube. ',
       link: 'https://www.youtube.com/watch?v=7aBZqxZEqh0',
     },
   ],
@@ -465,7 +465,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
