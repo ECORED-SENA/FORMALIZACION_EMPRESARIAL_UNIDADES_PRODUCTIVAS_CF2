@@ -15,52 +15,53 @@
       h2 2.1 Trámites
     p.mb-5 Los trámites necesarios para la gestión y creación de una unidad productiva se presentan a continuación: 
     .row.justify-content-around.align-items-center
-      .col-lg-10
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-22 fnd-2")
-          .row(titulo="Inscripción de Industria y Comercio")
-            .col-md-6.mb-4.mb-md-0.p-5
-              p Esta inscripción se realiza en las secretarías de hacienda municipal de donde se encuentra ubicada y va a funcionar la unidad productiva.
-          
-            .col-md-6.px-5
-              figure
-                img.img-250.img-c(src='@/assets/tema1/img-20.svg')
-                
-
-          div(titulo="Consulta de usos del suelo")
-            .row
+      .col-lg-11.align-self-center
+        .row.justify-content-around.align-items-center              
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-22 fnd-2")
+            .row(titulo="Inscripción de Industria y Comercio")
               .col-md-6.mb-4.mb-md-0.p-5
-                p Esta consulta se realiza en el Departamento Administrativo o Área de Planeación municipal o departamental, esto va acorde con el Plan de Ordenamiento Territorial (POT).  
+                p Esta inscripción se realiza en las secretarías de hacienda municipal de donde se encuentra ubicada y va a funcionar la unidad productiva.
             
               .col-md-6.px-5
                 figure
-                  img.img-250.img-c(src='@/assets/tema1/img-21.svg')
+                  img.img-250.img-c(src='@/assets/tema1/img-20.svg')
+                  
 
-          div(titulo="Inscripción del RUT y asignación del NIT")
-            .row
-              .col-md-6.mb-4.mb-md-0.px-5
-                p Esto se realiza en la Dirección de Impuestos y Aduanas Nacionales (DIAN) lo puede hacer de forma virtual y después se acerca a la entidad para solicitar copia del RUT. #[strong Registro Único Tributario (RUT) - Número de Identificación Tributaria (NIT).]           
-              .col-md-6.px-5
-                figure
-                  img.img-c(src='@/assets/tema1/img-22.svg')                
+            div(titulo="Consulta de usos del suelo")
+              .row
+                .col-md-6.mb-4.mb-md-0.p-5
+                  p Esta consulta se realiza en el Departamento Administrativo o Área de Planeación municipal o departamental, esto va acorde con el Plan de Ordenamiento Territorial (POT).  
+              
+                .col-md-6.px-5
+                  figure
+                    img.img-250.img-c(src='@/assets/tema1/img-21.svg')
 
-          div(titulo="Los establecimientos comerciales")
-            .row
-              .col-md-6.mb-4.mb-md-0.px-5
-                p Tendrán visitas de inspección, vigilancia y control por parte de las entidades reguladoras, en el cual deberán cumplir con los requerimientos exigidos para su funcionamiento, entre estas se encuentran:
-                ul.lista-ul
-                  li 
-                    i.iii.fas.fa-check
-                    | #[strong Condiciones sanitarias y ambientales.]
-                  li 
-                    i.iii.fas.fa-check
-                    | #[strong Prevención y seguridad industrial.]
-                  li 
-                    i.iii.fas.fa-check
-                    | #[strong La reproducción de música y videos.]
-            
-              .col-md-6.align-self-center
-                figure
-                  img.img-300.img-c(src='@/assets/tema1/img-23.svg')         
+            div(titulo="Inscripción del RUT y asignación del NIT")
+              .row
+                .col-md-6.mb-4.mb-md-0.px-5
+                  p Esto se realiza en la Dirección de Impuestos y Aduanas Nacionales (DIAN) lo puede hacer de forma virtual y después se acerca a la entidad para solicitar copia del RUT. #[strong Registro Único Tributario (RUT) - Número de Identificación Tributaria (NIT).]           
+                .col-md-6.px-5
+                  figure
+                    img.img-c(src='@/assets/tema1/img-22.svg')                
+
+            div(titulo="Los establecimientos comerciales")
+              .row
+                .col-md-6.mb-4.mb-md-0.px-5
+                  p Tendrán visitas de inspección, vigilancia y control por parte de las entidades reguladoras, en el cual deberán cumplir con los requerimientos exigidos para su funcionamiento, entre estas se encuentran:
+                  ul.lista-ul
+                    li 
+                      i.iii.fas.fa-check
+                      | #[strong Condiciones sanitarias y ambientales.]
+                    li 
+                      i.iii.fas.fa-check
+                      | #[strong Prevención y seguridad industrial.]
+                    li 
+                      i.iii.fas.fa-check
+                      | #[strong La reproducción de música y videos.]
+              
+                .col-md-6.align-self-center
+                  figure
+                    img.img-300.img-c(src='@/assets/tema1/img-23.svg')         
 
     separador            
     #t_2_2.titulo-segundo
