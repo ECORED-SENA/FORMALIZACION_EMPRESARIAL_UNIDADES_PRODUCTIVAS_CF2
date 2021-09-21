@@ -26,14 +26,17 @@
       separador
       #t_3_2.titulo-segundo
         h2 3.2 Uso de suelos
-    .row.justify-content-around.align-items-center
-      .col-lg-10.align-self-center
-        .row.justify-content-around.align-items-center
-          .col-lg-4 
-            figure.mb-5
-                img(src='@/assets/tema3/img-2.svg')
-          .col-lg-8.fnd-1.p-5         
-            p Facilita conocer los usos permitidos en determinado predio o edificación, lo cual está dado por el Plan de Ordenamiento Territorial (POT) de su municipio. Esto permitirá establecer si es viable desarrollar la actividad económica de la unidad productiva en determinado espacio geográfico. 
+    .row.justify-content-around.align-items-center.mb-5
+        .col-lg-11.align-self-center.img-c.fnd-tras
+          .row.justify-content-around.align-items-center
+            .col-lg-5
+              figure.pan
+                  img.img-380(src='@/assets/tema3/img-2.svg')
+            .col-lg-7.fnd-1.p-sm-4.bbr          
+              p Facilita conocer los usos permitidos en determinado predio o edificación, lo cual está dado por el Plan de Ordenamiento Territorial (POT) de su municipio. Esto permitirá establecer si es viable desarrollar la actividad económica de la unidad productiva en determinado espacio geográfico. 
+      
+    
+    
     separador 
     #t_3_3.titulo-segundo
       h2 3.3 Registro de marca y logo
@@ -108,26 +111,26 @@
       h2 3.5 Escritura pública 
 
     .row.justify-content-around.align-items-center
-      .col-lg-10.align-self-center
+      .col-lg-11.align-self-center.img-c.fnd-tras-2
         .row.justify-content-around.align-items-center
-          .col-lg-8.fnd-1.p-5         
+          .col-lg-7.fnd-1.p-sm-4.bbr.pr-5.order-2.order-lg-1         
             p Cualquier tipo de sociedad comercial puede constituirse por escritura pública y también las sociedades en las cuales se realice un aporte de bienes inmuebles como parte del capital social. La escritura deberá contemplar los requisitos del Artículo 110 del Código de Comercio.  
-          .col-lg-4 
-            figure.mb-5
-                img(src='@/assets/tema3/img-5.svg')
+          .col-lg-5.order-1.order-lg-2  
+            figure.pan
+                img.img-380(src='@/assets/tema3/img-5.svg')
 
       separador      
     #t_3_6.titulo-segundo
       h2 3.6 Cuenta bancaria
 
-    .row.justify-content-around.align-items-center
-      .col-lg-10.align-self-center
-        .row.justify-content-around.align-items-center
-          .col-lg-4 
-            figure.mb-5
-                img(src='@/assets/tema3/img-6.svg')
-          .col-lg-8.fnd-1.p-5         
-            p Un aspecto fundamental al momento de la consolidación de la unidad productiva es disponer de una cuenta bancaria a nombre de la sociedad, esta deberá ser una cuenta corriente y la puede solicitar en una entidad financiera, de igual forma, deberá reservar la denominación de su empresa (nombre) en el registro mercantil. 
+    .row.justify-content-around.align-items-center.mb-5
+        .col-lg-11.align-self-center.img-c.fnd-tras
+          .row.justify-content-around.align-items-center
+            .col-lg-5
+              figure.pan
+                  img.img-380(src='@/assets/tema3/img-6.svg')
+            .col-lg-7.fnd-1.p-sm-4.bbr         
+              p Un aspecto fundamental al momento de la consolidación de la unidad productiva es disponer de una cuenta bancaria a nombre de la sociedad, esta deberá ser una cuenta corriente y la puede solicitar en una entidad financiera, de igual forma, deberá reservar la denominación de su empresa (nombre) en el registro mercantil. 
 
     separador      
     #t_3_7.titulo-segundo
@@ -181,20 +184,24 @@
       h2 3.8 Solicitud del RUT
 
     .row.justify-content-around.align-items-center
-      .col-lg-11.align-self-center
+      .col-lg-11.align-self-center.img-c.fnd-tras-3
         .row.justify-content-around.align-items-center
-          .col-lg-8
-            .row.fnd-1.p-5.mb-4          
-              p El Registro Único Tributario (RUT) es un sistema utilizado por la DIAN para ubicar, identificar y clasificar la función de las personas y entidades en el sistema tributario, esta dependerá de su actividad económica, comercial, aportes, consumos y patrimonio. Después del registro, la DIAN asigna un Número de Identificación Tributaria (NIT) para identificar de forma individual a las empresas o personas, de esta forma ejerce un mejor control sobre sus actividades económicas y obligaciones tributarias. En el siguiente video se presentan los pasos para solicitar este registro ante la DIAN:
+          .col-lg-7.fnd-1.p-sm-4.bbr.pr-5.order-2.order-lg-1.mb-md-3         
+            p El Registro Único Tributario (RUT) es un sistema utilizado por la DIAN para ubicar, identificar y clasificar la función de las personas y entidades en el sistema tributario, esta dependerá de su actividad económica, comercial, aportes, consumos y patrimonio. Después del registro, la DIAN asigna un Número de Identificación Tributaria (NIT) para identificar de forma individual a las empresas o personas, de esta forma ejerce un mejor control sobre sus actividades económicas y obligaciones tributarias. En el siguiente video se presentan los pasos para solicitar este registro ante la DIAN:
+          .col-lg-5.order-1.order-lg-2  
+            figure.pan
+                img.img-380(src='@/assets/tema3/img-8.svg')            
+    .row.justify-content-around.align-items-center
+      .col-lg-11.align-self-center.img-c
+        .row.d-flex.justify-content-start
+          .col-lg-8          
             a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=7aBZqxZEqh0" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
                 p #[strong Enlace web.] Para profundizar al respecto visualizar:
                 p Inscripción del RUT por primera vez
-          .col-lg-4 
-            figure.mb-5
-                img(src='@/assets/tema3/img-8.svg')
+
       separador
     #t_3_9.titulo-segundo
       h2 3.9 Solicitud de facturación
@@ -348,17 +355,18 @@
       h2 3.12 Seguridad y salud en el trabajo    
 
     .row.justify-content-around.align-items-center
-      .col-lg-11.align-self-center
+      .col-lg-11.align-self-center.img-c.fnd-tras-2
         .row.justify-content-around.align-items-center
-          .col-lg-8
-            .row.fnd-1.p-5.mb-4          
-              p Es aquella disciplina que trata la prevención de las lesiones y enfermedades causadas por las condiciones de trabajo, y de igual forma, busca la protección y promoción de la salud de los trabajadores. Su objetivo recae en mejorar las condiciones y el medio ambiente del lugar de trabajo, de la misma forma, la salud y la constante promoción del bienestar físico, social y mental de los trabajadores en función de sus actividades.  
+          .col-lg-7.fnd-1.p-sm-4.bbr.pr-5.order-2.order-lg-1         
+            p Es aquella disciplina que trata la prevención de las lesiones y enfermedades causadas por las condiciones de trabajo, y de igual forma, busca la protección y promoción de la salud de los trabajadores. Su objetivo recae en mejorar las condiciones y el medio ambiente del lugar de trabajo, de la misma forma, la salud y la constante promoción del bienestar físico, social y mental de los trabajadores en función de sus actividades.  
             
-          .col-lg-4 
-            figure.mb-5
-                img(src='@/assets/tema3/img-16.svg')
-        .row.justify-content-around.align-items-center
-          .col-lg-10
+          .col-lg-5.order-1.order-lg-2  
+            figure.pan
+                img.img-380(src='@/assets/tema3/img-16.svg')
+    .row.justify-content-around.align-items-center
+      .col-lg-11.align-self-center.img-c
+        .row.d-flex.justify-content-start
+          .col-lg-8                  
             .tarjeta.color-primario.p-3.mb-5.degra
               .row.justify-content-around.align-items-center
                 .col-3.col-sm-2.col-lg-2

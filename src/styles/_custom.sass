@@ -1,4 +1,179 @@
-.img-c // centrar imagenes
+.img-450
+    width: 450px !important
+    margin: auto  
+.img-380
+    width: 390px !important
+    margin: auto      
+.img-300
+    width: 300px !important
+    margin: auto     
+.img-200
+    width: 200px !important
+    margin: auto      
+.img-160
+    width: 160px !important
+    margin: auto       
+
+@media (min-width: 990px)
+    
+  .pr-5
+    padding-left: 5rem    
+  .fnd-3-2   
+    background-size: contain
+    position: relative
+    display: flex
+    flex-direction: row
+    align-items: start  
+    z-index: 1
+    
+    &::before
+      content: ''
+      display: block
+      position: absolute
+      background-position: right top
+      top: 0rem
+      bottom: 0rem
+      left: 0rem
+      right: -3rem
+      z-index: -6
+      background-image: url(../assets/tema1/fnd-1.svg)   
+      background-repeat: no-repeat
+  .fnd-4-   
+    background-size: contain
+    position: relative
+    display: flex
+    flex-direction: row
+    align-items: start  
+    z-index: 1
+    
+    &::before
+      content: ''
+      display: block
+      position: absolute
+      background-position: left top
+      top: 7rem
+      bottom: 0rem
+      left: -3rem
+      right: 0rem
+      z-index: -6
+      background-image: url(../assets/tema1/fnd-2.svg)   
+      background-repeat: no-repeat
+@media only screen and (min-width: 1199px) and (max-width: 1299px)  
+
+  .bbr
+    padding: 1rem  2rem 0rem 0rem !important   
+  .pr-5
+    padding: 0rem  0rem 0rem 2rem !important      
+  .fnd-tras 
+    position: relative
+    display: flex
+    flex-direction: row
+    align-items: center   
+    z-index: 1
+    
+    &::before
+      content: ''
+      display: block
+      position: absolute
+      top: 4.2rem
+      bottom: 4.3rem
+      left: 11rem
+      right: 0%
+      z-index: -6
+      background-color: #ECFAFC !important     
+  .fnd-tras-2
+    position: relative
+    display: flex
+    flex-direction: row
+    align-items: center   
+    z-index: 1
+    
+    &::before
+      content: ''
+      display: block
+      position: absolute
+      top: 6.2rem
+      bottom: 7.3rem
+      left: -1rem
+      right: 11rem
+      z-index: -1
+      background-color: #ECFAFC !important
+  .fnd-tras-3
+    position: relative
+    display: flex
+    flex-direction: row
+    align-items: center   
+    z-index: 1
+    padding: 1rem 4rem
+    
+    &::before
+      content: ''
+      display: block
+      position: absolute
+      top: 2.2rem
+      bottom: 3.3rem
+      left: 0rem
+      right: 16rem
+      z-index: -1
+      background-color: #ECFAFC !important   
+
+@media (min-width: 1300px)   
+
+  .fnd-tras 
+    position: relative
+    display: flex
+    flex-direction: row
+    align-items: center   
+    z-index: 1
+    &::before
+      content: ''
+      display: block
+      position: absolute
+      top: 4.2rem
+      bottom: 4.3rem
+      left: 11rem
+      right: 0%
+      z-index: -1
+      background-color: #ECFAFC !important 
+  .fnd-tras-2
+    position: relative
+    display: flex
+    flex-direction: row
+    align-items: center   
+    z-index: 1
+    
+    &::before
+      content: ''
+      display: block
+      position: absolute
+      top: 6.2rem
+      bottom: 7.3rem
+      left: 0rem
+      right: 11rem
+      z-index: -1
+      background-color: #ECFAFC !important      
+  .fnd-tras-3
+    position: relative
+    display: flex
+    flex-direction: row
+    align-items: center   
+    z-index: 1
+    padding: 1rem 4rem
+    
+    &::before
+      content: ''
+      display: block
+      position: absolute
+      top: 4.2rem
+      bottom: 5.3rem
+      left: 0rem
+      right: 13rem
+      z-index: -1
+      background-color: #ECFAFC !important  
+
+
+
+.img-c
   justify-content: center!important
   display: block
   margin: 0 auto
@@ -7,14 +182,15 @@
 .gris:before
   background-color:#DAE0EC !important
 .fnd-1
-  background-color: #ECFAFC !important  
+  background-color: #ECFAFC !important
 .fnd-2
   background-color:#D8F5F8 !important      
+    
+.fnd-22    
   background-image: url(../assets/tema1/fnd-1.svg)
-  margin-inline: -3rem 
   background-repeat: no-repeat
   background-size: contain
-  background-position: bottom     
+  background-position: 90% 3rem    
 .fnd-3
   background-color:#B2EBF2 !important      
   background-image: url(../assets/tema1/fnd-2.svg)
@@ -57,7 +233,9 @@
 .img-250
   width: 250px !important 
 .img-90
-  width: 90px !important     
+  width: 90px !important  
+.img-70
+  width: 70px !important      
 .izq-
   text-align: left  !important
 .degra

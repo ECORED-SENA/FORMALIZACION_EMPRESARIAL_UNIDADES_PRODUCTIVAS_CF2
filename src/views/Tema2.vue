@@ -16,7 +16,7 @@
     p.mb-5 Los trámites necesarios para la gestión y creación de una unidad productiva se presentan a continuación: 
     .row.justify-content-around.align-items-center
       .col-lg-10
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-2")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-22 fnd-2")
           .row(titulo="Inscripción de Industria y Comercio")
             .col-md-6.mb-4.mb-md-0.p-5
               p Esta inscripción se realiza en las secretarías de hacienda municipal de donde se encuentra ubicada y va a funcionar la unidad productiva.
@@ -37,7 +37,7 @@
 
           div(titulo="Inscripción del RUT y asignación del NIT")
             .row
-              .col-md-6.mb-4.mb-md-0.p-5
+              .col-md-6.mb-4.mb-md-0.px-5
                 p Esto se realiza en la Dirección de Impuestos y Aduanas Nacionales (DIAN) lo puede hacer de forma virtual y después se acerca a la entidad para solicitar copia del RUT. #[strong Registro Único Tributario (RUT) - Número de Identificación Tributaria (NIT).]           
               .col-md-6.px-5
                 figure
@@ -45,7 +45,7 @@
 
           div(titulo="Los establecimientos comerciales")
             .row
-              .col-md-6.mb-4.mb-md-0.p-5
+              .col-md-6.mb-4.mb-md-0.px-5
                 p Tendrán visitas de inspección, vigilancia y control por parte de las entidades reguladoras, en el cual deberán cumplir con los requerimientos exigidos para su funcionamiento, entre estas se encuentran:
                 ul.lista-ul
                   li 
@@ -58,21 +58,21 @@
                     i.iii.fas.fa-check
                     | #[strong La reproducción de música y videos.]
             
-              .col-md-6.px-5
+              .col-md-6.align-self-center
                 figure
-                  img.img-250.img-c(src='@/assets/tema1/img-23.svg')         
+                  img.img-300.img-c(src='@/assets/tema1/img-23.svg')         
 
     separador            
     #t_2_2.titulo-segundo
       h2 2.2 Pasos previos para la constitución y formalización de las unidades productivas 
     .row.justify-content-around.align-items-center.mb-5
-      .col-lg-10.align-self-center
+      .col-lg-11.align-self-center.img-c.fnd-tras
         .row.justify-content-around.align-items-center
-          .col-lg-4 
-            figure.mb-5
-                img(src='@/assets/tema1/img-24.png')
-          .col-lg-8.fnd-1.p-5         
-            p En este apartado se van a ver los pasos a seguir para la formalización de una unidad productiva, los cuales se explicarán en tres tiempos, el primero de ellos es la consulta, que se refiere al tipo de empresa, el nombre y marca; el segundo de ellos es el diligenciamiento, en el que se realiza el registro, inscripción y documentación requerida; y el tercero de ellos es la formalización, en este se formaliza en la Cámara de Comercio. 
+            .col-lg-5
+              figure.pan
+                  img.img-380(src='@/assets/tema1/img-24.png')
+            .col-lg-7.fnd-1.p-sm-4.bbr       
+              p En este apartado se van a ver los pasos a seguir para la formalización de una unidad productiva, los cuales se explicarán en tres tiempos, el primero de ellos es la consulta, que se refiere al tipo de empresa, el nombre y marca; el segundo de ellos es el diligenciamiento, en el que se realiza el registro, inscripción y documentación requerida; y el tercero de ellos es la formalización, en este se formaliza en la Cámara de Comercio. 
 
     h5 Consulta
     p.mb-5 Al momento de materializar una idea o consolidar una idea de negocio es importante saber qué tipo de sociedad económica se va a tener en cuenta para formalizar esa unidad productiva, por eso la consulta es fundamental para poder identificar cuál tipo de empresa conviene, cuál sería el nombre que llevará la unidad productiva, en qué actividades económicas se clasifica la unidad productiva y de esta forma, consolidar una marca productiva y que se pueda consolidar en el mercado. En el siguiente gráfico interactivo, se pueden conocer los diferentes tipos de consultas:

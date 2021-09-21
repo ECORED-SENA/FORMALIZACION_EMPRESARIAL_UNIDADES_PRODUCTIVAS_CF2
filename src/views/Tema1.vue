@@ -15,7 +15,7 @@
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.azul.gris(data-aos="fade-left") 
       .row.m-0.align-items-center.justify-content-between.align-self-center
         .col-lg-8
-          .bloque-texto-a__texto.p-4
+          .bloque-texto-a__texto.p-4.mb-3
             p La Dirección de Impuestos y Aduanas Nacionales (DIAN) es una Unidad Administrativa Especial del orden nacional de carácter técnico y especializado, con personería jurídica, autonomía administrativa, presupuestal y con patrimonio propio, adscrita al Ministerio de Hacienda y Crédito Público. Su objeto recae en contribuir a garantizar la seguridad fiscal del Estado colombiano y la protección del orden público económico nacional, esto lo realiza mediante la administración y control de las obligaciones tributarias, cambiarias, aduaneras, juegos de azar y operaciones de comercio exterior (DIAN, 2020).
 
         .col-lg-4.mb-4.mb-lg-0.align-self-center
@@ -24,14 +24,14 @@
     separador            
     #t_1_2.titulo-segundo
       h2 1.2 Alcaldía   
-    .row.justify-content-around.align-items-center
-      .col-lg-10.align-self-center
-        .row.justify-content-around.align-items-center
-          .col-lg-4 
-            figure.mb-5
-                img(src='@/assets/tema1/img-2.png')
-          .col-lg-8.fnd-1.p-5         
-            p A simple vista el concepto de alcaldía se relaciona con el territorio o distrito en que tiene jurisdicción el alcalde, pero es una entidad pública que tiene como objetivo principal administrar los recursos de cada municipio y que estos sean utilizados para generar bienestar a todas las personas. En otras palabras, se encarga de cumplir y hacer cumplir las leyes del gobierno, entre otras funciones. 
+    .row.justify-content-around.align-items-center.mb-5
+        .col-lg-11.align-self-center.img-c.fnd-tras
+          .row.justify-content-around.align-items-center
+            .col-lg-5
+              figure.pan
+                img.img-380(src='@/assets/tema1/img-2.png')
+            .col-lg-7.fnd-1.p-sm-4.bbr        
+              p A simple vista el concepto de alcaldía se relaciona con el territorio o distrito en que tiene jurisdicción el alcalde, pero es una entidad pública que tiene como objetivo principal administrar los recursos de cada municipio y que estos sean utilizados para generar bienestar a todas las personas. En otras palabras, se encarga de cumplir y hacer cumplir las leyes del gobierno, entre otras funciones. 
     separador
     #t_1_3.titulo-segundo
       h2 1.3 Superintendencia 
@@ -145,7 +145,7 @@
 
       .col-md-6.fnd-1.p-5
         figure
-          img(src='@/assets/tema1/img-14.png')
+          img.img-350.img-c(src='@/assets/tema1/img-14.png')
     separador
     #t_1_5.titulo-segundo
       h2 1.5 Cámaras de comercio 
@@ -161,13 +161,13 @@
           .bloque-texto-d__autor 
             .h5.mb-0 (Cámara de Comercio del Cauca, 2021, p. 21). 
  
-    .row.justify-content-around.align-items-center
-      .col-lg-10.align-self-center
+    .row.justify-content-around.align-items-center.mb-5
+      .col-lg-11.align-self-center.img-c.fnd-tras
         .row.justify-content-around.align-items-center
-          .col-lg-4 
-            figure.mb-5
-                img(src='@/assets/tema1/img-15.png')
-          .col-lg-8.fnd-1.p-5         
+          .col-lg-5 
+            figure.pan
+              img.img-380(src='@/assets/tema1/img-15.png')
+          .col-lg-7.fnd-1.p-sm-4.bbr         
             p Su objetivo es defender los intereses de los empresarios en Colombia, para su cumplimiento deben llevar el registro mercantil de las entidades sin ánimo de lucro y el registro único de proponentes, es preciso resaltar que las Cámaras de Comercio no deben formar parte de la administración pública. 
     separador
     #t_1_6.titulo-segundo
@@ -204,8 +204,8 @@
         .col-lg-4.mb-4.mb-lg-0.align-self-center
           figure.mb-5
             img.img-350.img-c(src='@/assets/tema1/img-17.png')
-    .row.justify-content-around.align-items-center.mb-5
-      .col-lg-6
+    .row.justify-content-around.align-items-center
+      .col-lg-8
         .tarjeta.color-primario.p-3.mb-5.degra
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
@@ -224,14 +224,18 @@
     #t_1_8.titulo-segundo
       h2 1.8 Instituto nacional y departamental de salud
     .row.justify-content-around.align-items-center
-      .col-lg-10.align-self-center
+      .col-lg-11.align-self-center.img-c.fnd-tras
         .row.justify-content-around.align-items-center
-          .col-lg-4 
-            figure.mb-5
-                img.img-350.img-c(src='@/assets/tema1/img-18.png')
-          .col-lg-8
-            .row.fnd-1.p-5.mb-5          
+          .col-lg-5
+              figure.pan
+                  img.img-380(src='@/assets/tema1/img-18.png')
+          .col-lg-7.fnd-1.p-sm-4.bbr.mb-4  
+            .row.fnd-1.p-3          
               p Son entidades públicas del orden nacional y departamental pertenecientes al sector de ciencia, tecnología e innovación y al sector salud y protección social; son las encargadas de coordinar y vigilar el sistema de salud pública en el país. 
+    .row.justify-content-around.align-items-center
+      .col-lg-11.align-self-center.img-c
+        .row.d-flex.justify-content-end
+          .col-lg-8            
             .tarjeta.color-primario.p-3.mb-5.degra
               .row.justify-content-around.align-items-center
                 .col-3.col-sm-2.col-lg-2
@@ -249,11 +253,19 @@
     #t_1_9.titulo-segundo
       h2 1.9 Comités locales de prevención y atención a desastres 
     .row.justify-content-around.align-items-center
-      .col-lg-10.align-self-center
+      .col-lg-11.align-self-center.img-c.fnd-tras-2
         .row.justify-content-around.align-items-center
-          .col-md-8.order-2.order-lg-1
-            .row.fnd-1.p-5.mb-3       
-              p Según lo contemplado en la Ley 1523 de 2012 los comités están conformadas por entidades públicas, privadas e instituciones de educación tanto públicas y privadas, son de carácter local o regional, con el objetivo de emitir un concepto, asesorar la planeación y seguimiento, destinados a garantizar la efectividad y articulación de los procesos de conocimiento, de reducción del riesgo y manejo de desastres. 
+          .col-lg-7.fnd-1.p-sm-4.bbr.pr-5.order-2.order-lg-1         
+            p Según lo contemplado en la Ley 1523 de 2012 los comités están conformadas por entidades públicas, privadas e instituciones de educación tanto públicas y privadas, son de carácter local o regional, con el objetivo de emitir un concepto, asesorar la planeación y seguimiento, destinados a garantizar la efectividad y articulación de los procesos de conocimiento, de reducción del riesgo y manejo de desastres. 
+          .col-lg-5.order-1.order-lg-2  
+            figure.pan
+                img.img-380(src='@/assets/tema1/img-19.png')
+            
+            
+    .row.justify-content-around.align-items-center
+      .col-lg-11.align-self-center.img-c
+        .row.d-flex.justify-content-start
+          .col-lg-8          
             .tarjeta.color-primario.p-3.mb-5.degra
               .row.justify-content-around.align-items-center
                 .col-3.col-sm-2.col-lg-2
@@ -267,9 +279,6 @@
                       a.boton(:href="('https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=47141')" target="_blank")
                         span.aaa Ver
                         i.aaa.fas.fa-link        
-          .col-md-4.order-md-1.order-lg-2
-            figure.mb-5
-                img.img-350.img-c(src='@/assets/tema1/img-19.png')
 
 
 </template>
