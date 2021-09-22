@@ -353,7 +353,10 @@
     separador
     #t_3_12.titulo-segundo
       h2 3.12 Seguridad y salud en el trabajo    
-
+    figure.mb-5(data-aos="fade-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/5CF3HZdu6Bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+     
     .row.justify-content-around.align-items-center
       .col-lg-11.align-self-center.img-c.fnd-tras-2
         .row.justify-content-around.align-items-center
