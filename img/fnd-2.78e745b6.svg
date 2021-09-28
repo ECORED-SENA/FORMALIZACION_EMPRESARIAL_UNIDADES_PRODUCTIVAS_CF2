@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="273.908" height="285.277" viewBox="0 0 273.908 285.277">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_34571" data-name="Rectángulo 34571" width="273.908" height="285.277" rx="15.98"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_87" data-name="Enmascarar grupo 87" opacity="0.053" clip-path="url(#clip-path)" style="mix-blend-mode: multiply;isolation: isolate">
+    <path id="Trazado_182992" data-name="Trazado 182992" d="M18.955,358.129l291.234-12.894c10.234-.453,18.9-10.206,19.351-21.784L341.364,21.321c.453-11.578-7.476-20.6-17.71-20.143L32.42,14.071c-10.234.453-18.9,10.206-19.351,21.784L1.245,337.987C.792,349.564,8.721,358.583,18.955,358.129Z" transform="translate(305.343 393.447) rotate(163)" fill="#0a0217"/>
+    <path id="Sustracción_9" data-name="Sustracción 9" d="M307.783,535.927v0h0L56.941,305.677A175.389,175.389,0,0,1,5.007,217.542a178.228,178.228,0,0,1,4.673-99.955A176.118,176.118,0,0,1,72.757,32.534,171.62,171.62,0,0,1,289.715,45.472l18.068,16.585V535.923h0v0Z" transform="translate(267.964 137.759) rotate(90)" fill="#0059d6" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+  </g>
+</svg>
