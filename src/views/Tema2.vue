@@ -20,7 +20,7 @@
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-22 fnd-2")
             .row(titulo="Inscripción de Industria y Comercio")
               .col-md-6.mb-4.mb-md-0.p-5
-                p Esta inscripción se realiza en las secretarías de hacienda municipal de donde se encuentra ubicada y va a funcionar la unidad productiva.
+                p Esta inscripción se realiza en las Secretarías de Hacienda municipal de donde se encuentra ubicada y va a funcionar la unidad productiva.
             
               .col-md-6.px-5
                 figure

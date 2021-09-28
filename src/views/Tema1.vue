@@ -31,7 +31,7 @@
               figure.pan
                 img.img-380(src='@/assets/tema1/img-2.png')
             .col-lg-7.fnd-1.p-sm-4.bbr        
-              p A simple vista el concepto de alcaldía se relaciona con el territorio o distrito en que tiene jurisdicción el alcalde, pero es una entidad pública que tiene como objetivo principal administrar los recursos de cada municipio y que estos sean utilizados para generar bienestar a todas las personas. En otras palabras, se encarga de cumplir y hacer cumplir las leyes del gobierno, entre otras funciones. 
+              p A simple vista el concepto de Alcaldía se relaciona con el territorio o distrito en que tiene jurisdicción el alcalde, pero es una entidad pública que tiene como objetivo principal administrar los recursos de cada municipio y que estos sean utilizados para generar bienestar a todas las personas. En otras palabras, se encarga de cumplir y hacer cumplir las leyes del gobierno, entre otras funciones. 
     separador
     #t_1_3.titulo-segundo
       h2 1.3 Superintendencia 
@@ -196,7 +196,7 @@
       .row.m-0.align-items-center.justify-content-between.align-self-center
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p Es una organización sin ánimo de lucro, de interés y utilidad común, las secretarías de gobierno departamental les otorgan personería jurídica para la prestación del servicio público que tiene como objetivo la gestión integral del riesgo contra incendio, la atención de incidentes y la atención de rescates en todas sus modalidades, así mismo, es claro mencionar que ningún municipio podrá tener más de un cuerpo de bomberos voluntarios.
+            p Es una organización sin ánimo de lucro, de interés y utilidad común, las Secretarías de Gobierno Departamental les otorgan personería jurídica para la prestación del servicio público que tiene como objetivo la gestión integral del riesgo contra incendio, la atención de incidentes y la atención de rescates en todas sus modalidades, así mismo, es claro mencionar que ningún municipio podrá tener más de un cuerpo de bomberos voluntarios.
             br 
             p Por otra parte, los cuerpos de bomberos voluntarios están sometidos al régimen disciplinario previsto en el Decreto 953 de 1997 y contemplados en la Ley 1575 de 2012. 
 
@@ -222,7 +222,7 @@
 
     separador
     #t_1_8.titulo-segundo
-      h2 1.8 Instituto nacional y departamental de salud
+      h2 1.8 Instituto Nacional y Departamental de Salud
     .row.justify-content-around.align-items-center
       .col-lg-11.align-self-center.img-c.fnd-tras
         .row.justify-content-around.align-items-center
